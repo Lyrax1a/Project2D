@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "ordinary_ticks": 30000,
+  "trace_sha256": {
+    "candidate": "683d9d8a9c58e2741bb8c34c106477c8de90fa022eb0e8681d19e6e339225e56"
+  },
+  "actual_events": [
+    2,
+    3,
+    5,
+    6,
+    7,
+    10,
+    12,
+    15
+  ],
+  "scope": "Three identical sector-start fixtures, 10000 ticks each with automatic restart after defeat; C gameplay state trace unchanged with PC audio enabled; successful allied shot/pickup/rail emitters. Not a full clear, earned profile, board FPS or physical sound claim."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "changes": [
+    "Added UART loader and upgrade-bridge sources and reproducible builder",
+    "Made gameplay regression runnable with package-contained expected data",
+    "Updated loader help and installation/test instructions"
+  ],
+  "firmware_unchanged": true,
+  "boot_images_unchanged": true,
+  "hardware_images_unchanged": true,
+  "copyright_notices_preserved": true,
+  "historical_benchmark_claims_not_applied_to_current_game": true,
+  "board_tested": false,
+  "hardware_resynthesized": false
+}

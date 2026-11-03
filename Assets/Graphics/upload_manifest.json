@@ -1,0 +1,15 @@
+{
+  "warden_baked_assets": {
+    "schema": "usurper-warden-baked-assets.v1",
+    "raw_bytes": 22756972,
+    "raw_crc": 2391486061,
+    "raw_sha256": "89e2f5909184bb4caf58bb7a288bd1e5b925017a614bc39d2d4072b7b3cba52a",
+    "compressed_bytes": 2335442,
+    "compressed_crc": 2417241071,
+    "compressed_sha256": "7a7ef5fc488a9446466f965454cbbafe513647445ee8081673a652a98d2d52a3",
+    "compressed_file": "../Assets/Graphics/warden_layers.lz4",
+    "compressed_base": 264241152,
+    "decoded_base": 218103808,
+    "decoded_limit": 243269632
+  }
+}

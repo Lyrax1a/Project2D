@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "firmware_sha256": "9622017ebe03af0da2aa9394542a8f951422a80386a1d493b89218b460f4aa3e",
+  "firmware_unchanged": true,
+  "c_inputs_with_identical_tokens": 127,
+  "unchanged_runtime_asset_files": 94,
+  "menu_checks": "FRAME menu_updated phase=0 commands=97\nMENU_PASS three actions, keyboard wrap, mouse hitboxes, settings/back, confirmation, removed targets inactive",
+  "gameplay_ticks": 30000,
+  "gameplay_trace_sha256": "683d9d8a9c58e2741bb8c34c106477c8de90fa022eb0e8681d19e6e339225e56",
+  "gameplay_scope": "Package-contained test with stored expected trace and audio events; no external baseline project required.",
+  "hardware_inputs_verified": true,
+  "third_party_notices_preserved": true,
+  "board_tested": false,
+  "hardware_resynthesized": false,
+  "boot_sources_present": true,
+  "boot_rebuild_matches_images": true,
+  "gameplay_regression_self_contained": true
+}

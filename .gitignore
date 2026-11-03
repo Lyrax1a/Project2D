@@ -1,0 +1,34 @@
+# Local environments, editors, and test caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+.vs/
+Thumbs.db
+.DS_Store
+/Logs/
+
+# Efinity work directories and local session files
+/Hardware/Project/work_*/
+/Hardware/Project/outflow/
+/Hardware/Project/.lock
+/Hardware/Project/*.log
+
+# Ignore local builds but retain the files shipped in the verified release.
+/Build/*
+!/Build/Boot/
+/Build/Boot/*
+!/Build/Boot/boot.bin
+!/Build/Boot/boot.elf
+!/Build/Boot/boot_upgrade.bin
+!/Build/Boot/boot_upgrade.elf
+!/Build/Boot/validation.json
+!/Build/boot_upgrade.bin
+!/Build/boot_upgrade.json
+!/Build/build_result.json
+!/Build/game.bin
+!/Build/game.elf
+!/Build/package_audit.json
+!/Build/preparation.json

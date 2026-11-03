@@ -1,0 +1,11 @@
+{
+  "schema": "usurper-volatile-boot-upgrade.v1",
+  "mode": "DDR program replaces writable boot RAM; no flash writes",
+  "file": "boot_upgrade.bin",
+  "bytes": 3664,
+  "sha256": "dbd19ed40972523bb28e297492f3b11f76bc457026e152cdc0bec0f0fb4e1c3b",
+  "boot_bytes": 2400,
+  "boot_sha256": "9ccc403194bcf4e73542acd74baa5e97d6613c23dc06b8bc1ace48ffec99f43d",
+  "firmware_sha256": "9622017ebe03af0da2aa9394542a8f951422a80386a1d493b89218b460f4aa3e",
+  "max_firmware_bytes": 917504
+}

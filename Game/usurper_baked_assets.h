@@ -1,0 +1,8 @@
+#ifndef USURPER_BAKED_ASSETS_H
+#define USURPER_BAKED_ASSETS_H
+#define US_BAKED_TRANSFER_BASE 0x0fc00000u
+#define US_BAKED_TRANSFER_LIMIT 0x00400000u
+#define US_BAKED_DECODE_BASE 0x0d000000u
+#define US_BAKED_DECODE_LIMIT 0x01800000u
+int usurper_baked_assets_load(void);
+#endif

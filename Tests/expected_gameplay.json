@@ -1,0 +1,6 @@
+{
+  "ticks": 30000,
+  "trace_sha256": "683d9d8a9c58e2741bb8c34c106477c8de90fa022eb0e8681d19e6e339225e56",
+  "audio_events": [2, 3, 5, 6, 7, 10, 12, 15],
+  "scope": "Three sector-start fixtures, 10000 ticks each. Not full game clears or board frame-rate qualification."
+}

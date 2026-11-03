@@ -1,0 +1,423 @@
+{
+  "schema": "usurper-original-audio.v1",
+  "source": "Usurper / scripts/autoload/audio_manager.gd",
+  "source_sha256": "e5b88bb9e8ac04fe8009dc14310637ae3db599c71068fb1954c6389188fd16a5",
+  "music_tracks": [
+    "menu/space_riddle.mp3",
+    "upgrade/01_Chickens In The Meadow.ogg",
+    "upgrade/02_Cuddle Clouds.ogg",
+    "upgrade/03_Drifting Memories.ogg",
+    "upgrade/04_Evening Harmony.ogg",
+    "upgrade/05_Floating Dream.ogg",
+    "upgrade/06_Forgotten Biomes.ogg",
+    "upgrade/07_Gentle Breeze.ogg",
+    "upgrade/08_Golden Gleam.ogg",
+    "upgrade/09_Pineapple Under The Sea.ogg",
+    "upgrade/10_Polar Lights.ogg",
+    "upgrade/11_Sheep.ogg",
+    "upgrade/12_Strange Worlds.ogg",
+    "upgrade/13_Sunlight Through Leaves.ogg",
+    "upgrade/14_Wanderer's Tale.ogg",
+    "upgrade/15_What Clouds Are Made Of.ogg",
+    "upgrade/16_Whispering Woods.ogg",
+    "upgrade/17_Wildflowers By The River.ogg",
+    "upgrade/18_Wind Over The Trees.ogg",
+    "battle/01_sentinel_cloud.ogg",
+    "battle/02_behind_the_darkness.ogg",
+    "battle/03_synthetic_whisper.ogg",
+    "battle/04_lost_spaceship_signal.ogg",
+    "battle/05_lightyear_city.ogg",
+    "battle/06_welcome_to_the_elevator.mp3",
+    "battle/08_secret_dissonance.ogg",
+    "shared/planet.ogg"
+  ],
+  "streams": {
+    "armor_break": {
+      "files": [
+        "armor_break_0.wav",
+        "armor_break_1.wav"
+      ],
+      "interval_ms": 75,
+      "pitch_semitones": 0.200000137090683,
+      "voices": 2,
+      "volume_offset_db": 0.200000002980232
+    },
+    "blast": {
+      "files": [
+        "blast_0.wav",
+        "blast_1.wav"
+      ],
+      "interval_ms": 85,
+      "pitch_semitones": 0.450000405311584,
+      "voices": 2,
+      "volume_offset_db": 0.349999994039536
+    },
+    "boss_break": {
+      "files": [
+        "boss_break_0.wav"
+      ],
+      "interval_ms": 0,
+      "pitch_semitones": 0.0,
+      "voices": 20,
+      "volume_offset_db": 0.0
+    },
+    "carrier_launch": {
+      "files": [
+        "carrier_launch_0.wav"
+      ],
+      "interval_ms": 180,
+      "pitch_semitones": 0.0,
+      "voices": 1,
+      "volume_offset_db": 0.0
+    },
+    "critical": {
+      "files": [
+        "critical_0.wav",
+        "critical_1.wav"
+      ],
+      "interval_ms": 80,
+      "pitch_semitones": 0.500000059604645,
+      "voices": 1,
+      "volume_offset_db": 0.300000011920929
+    },
+    "gate": {
+      "files": [
+        "gate_0.wav"
+      ],
+      "interval_ms": 0,
+      "pitch_semitones": 0.0,
+      "voices": 20,
+      "volume_offset_db": 0.0
+    },
+    "hit": {
+      "files": [
+        "hit_0.wav",
+        "hit_1.wav",
+        "hit_2.wav"
+      ],
+      "interval_ms": 35,
+      "pitch_semitones": 0.249999761581421,
+      "voices": 2,
+      "volume_offset_db": 0.200000002980232
+    },
+    "hurt": {
+      "files": [
+        "hurt_0.wav"
+      ],
+      "interval_ms": 220,
+      "pitch_semitones": 0.0,
+      "voices": 1,
+      "volume_offset_db": 0.0
+    },
+    "impact_cut": {
+      "files": [
+        "impact_cut_0.wav",
+        "impact_cut_1.wav"
+      ],
+      "interval_ms": 100,
+      "pitch_semitones": 0.200000137090683,
+      "voices": 2,
+      "volume_offset_db": 0.150000005960464
+    },
+    "impact_heat": {
+      "files": [
+        "impact_heat_0.wav"
+      ],
+      "interval_ms": 130,
+      "pitch_semitones": 0.0,
+      "voices": 1,
+      "volume_offset_db": 0.0
+    },
+    "impact_heavy": {
+      "files": [
+        "impact_heavy_0.wav",
+        "impact_heavy_1.wav"
+      ],
+      "interval_ms": 90,
+      "pitch_semitones": 0.179999813437462,
+      "voices": 2,
+      "volume_offset_db": 0.200000002980232
+    },
+    "kill": {
+      "files": [
+        "kill_0.wav"
+      ],
+      "interval_ms": 75,
+      "pitch_semitones": 0.0,
+      "voices": 1,
+      "volume_offset_db": 0.0
+    },
+    "missile": {
+      "files": [
+        "missile_0.wav",
+        "missile_1.wav",
+        "missile_2.wav"
+      ],
+      "interval_ms": 150,
+      "pitch_semitones": 0.800000309944153,
+      "voices": 1,
+      "volume_offset_db": 0.449999988079071
+    },
+    "overdrive": {
+      "files": [
+        "overdrive_0.wav"
+      ],
+      "interval_ms": 250,
+      "pitch_semitones": 0.0,
+      "voices": 1,
+      "volume_offset_db": 0.0
+    },
+    "pickup_alloy": {
+      "files": [
+        "pickup_alloy_0.wav",
+        "pickup_alloy_1.wav"
+      ],
+      "interval_ms": 45,
+      "pitch_semitones": 0.450000405311584,
+      "voices": 2,
+      "volume_offset_db": 0.300000011920929
+    },
+    "pickup_core": {
+      "files": [
+        "pickup_core_0.wav",
+        "pickup_core_1.wav"
+      ],
+      "interval_ms": 45,
+      "pitch_semitones": 0.249999761581421,
+      "voices": 2,
+      "volume_offset_db": 0.200000002980232
+    },
+    "power_absorbed": {
+      "files": [
+        "power_absorbed_0.wav"
+      ],
+      "interval_ms": 0,
+      "pitch_semitones": 0.0,
+      "voices": 20,
+      "volume_offset_db": 0.0
+    },
+    "power_acquired": {
+      "files": [
+        "power_acquired_0.wav"
+      ],
+      "interval_ms": 0,
+      "pitch_semitones": 0.0,
+      "voices": 20,
+      "volume_offset_db": 0.0
+    },
+    "power_charge": {
+      "files": [
+        "power_charge_0.wav"
+      ],
+      "interval_ms": 0,
+      "pitch_semitones": 0.0,
+      "voices": 20,
+      "volume_offset_db": 0.0
+    },
+    "rail": {
+      "files": [
+        "rail_0.wav",
+        "rail_1.wav",
+        "rail_2.wav"
+      ],
+      "interval_ms": 0,
+      "pitch_semitones": 0.35000067949295,
+      "voices": 20,
+      "volume_offset_db": 0.300000011920929
+    },
+    "rail_ally": {
+      "files": [
+        "rail_ally_0.wav",
+        "rail_ally_1.wav",
+        "rail_ally_2.wav"
+      ],
+      "interval_ms": 150,
+      "pitch_semitones": 0.249999761581421,
+      "voices": 1,
+      "volume_offset_db": 0.200000002980232
+    },
+    "rail_fire": {
+      "files": [
+        "rail_fire_0.wav",
+        "rail_fire_1.wav",
+        "rail_fire_2.wav"
+      ],
+      "interval_ms": 100,
+      "pitch_semitones": 0.249999761581421,
+      "voices": 1,
+      "volume_offset_db": 0.200000002980232
+    },
+    "rail_pierce": {
+      "files": [
+        "rail_pierce_0.wav",
+        "rail_pierce_1.wav",
+        "rail_pierce_2.wav"
+      ],
+      "interval_ms": 70,
+      "pitch_semitones": 0.399999171495438,
+      "voices": 2,
+      "volume_offset_db": 0.25
+    },
+    "rail_ready": {
+      "files": [
+        "rail_ready_0.wav"
+      ],
+      "interval_ms": 250,
+      "pitch_semitones": 0.0,
+      "voices": 1,
+      "volume_offset_db": 0.0
+    },
+    "shot": {
+      "files": [
+        "shot_0.wav",
+        "shot_1.wav",
+        "shot_2.wav"
+      ],
+      "interval_ms": 65,
+      "pitch_semitones": 0.600000739097595,
+      "voices": 2,
+      "volume_offset_db": 0.400000005960464
+    },
+    "turret_rail": {
+      "files": [
+        "turret_rail_0.wav",
+        "turret_rail_1.wav",
+        "turret_rail_2.wav"
+      ],
+      "interval_ms": 180,
+      "pitch_semitones": 0.35000067949295,
+      "voices": 1,
+      "volume_offset_db": 0.300000011920929
+    },
+    "ui_click": {
+      "files": [
+        "ui_click_0.wav",
+        "ui_click_1.wav",
+        "ui_click_2.wav"
+      ],
+      "interval_ms": 45,
+      "pitch_semitones": 0.35000067949295,
+      "voices": 1,
+      "volume_offset_db": 0.349999994039536
+    },
+    "ui_hover": {
+      "files": [
+        "ui_hover_0.wav",
+        "ui_hover_1.wav",
+        "ui_hover_2.wav"
+      ],
+      "interval_ms": 45,
+      "pitch_semitones": 0.249999761581421,
+      "voices": 1,
+      "volume_offset_db": 0.25
+    },
+    "upgrade": {
+      "files": [
+        "upgrade_0.wav",
+        "upgrade_1.wav",
+        "upgrade_2.wav",
+        "upgrade_3.wav"
+      ],
+      "interval_ms": 0,
+      "pitch_semitones": 0.35000067949295,
+      "voices": 20,
+      "volume_offset_db": 0.349999994039536
+    },
+    "warning": {
+      "files": [
+        "warning_0.wav"
+      ],
+      "interval_ms": 300,
+      "pitch_semitones": 0.0,
+      "voices": 1,
+      "volume_offset_db": 0.0
+    },
+    "warp_in": {
+      "files": [
+        "warp_in_0.wav",
+        "warp_in_1.wav"
+      ],
+      "interval_ms": 0,
+      "pitch_semitones": 0.249999761581421,
+      "voices": 20,
+      "volume_offset_db": 0.200000002980232
+    },
+    "warp_out": {
+      "files": [
+        "warp_out_0.wav",
+        "warp_out_1.wav"
+      ],
+      "interval_ms": 0,
+      "pitch_semitones": 0.249999761581421,
+      "voices": 20,
+      "volume_offset_db": 0.200000002980232
+    }
+  },
+  "files": {
+    "armor_break_0.wav": "5af9282f27e1c1f59afca6aecc1d333a721821f6e6a515f1deb0e33e823ca5a9",
+    "armor_break_1.wav": "8b55325e6f487515ab91d3f87dc757bf4be134fd038ff860d88abad909def265",
+    "blast_0.wav": "99a2b65f80565e369791beca7c66b21cbbb082e53d3c7608c8f63218d781ec3b",
+    "blast_1.wav": "6102e84a68afa7cdb7eeb5a5b112647270fad43f93d34655e1536d3dd9bcd6d5",
+    "boss_break_0.wav": "3ef7e3190800187f19dd20cf1ee2ac498d03e3312091e7f1101ccd63dbdc81f4",
+    "carrier_launch_0.wav": "1001154f3df0ebc1360e62943ccb8cd2b45e3b24818d419c560986a792a8119b",
+    "critical_0.wav": "628f6f9ca943656c16d7c1509ce21caac781b57ab41d4b148bd13993dcfaff44",
+    "critical_1.wav": "ce78aa7f1026dbb60289506b7d11aebbae5edcdaf8f0c42b5f23308a23598c46",
+    "gate_0.wav": "9a1e6696e1634dd0fd0c9f25223ff5a94237c2fb2617e3ccff15592e9758495d",
+    "hit_0.wav": "a2065c1540a1026ba90f3fefedfe53483d478278c56cd3b1184f72b73673ba7b",
+    "hit_1.wav": "3caa73e2c4ce9472fed9ee5015db5e8993ffbff4159625cd87a3a02e4d008b8c",
+    "hit_2.wav": "15744965da4eafc628be01dc59c8b70670a08cd8f30b82344d9893011f6ec835",
+    "hurt_0.wav": "1bb901174a414af0c907a37ace7f2a4829a29e7c8075820cb961433d6321c92a",
+    "impact_cut_0.wav": "6dcc85ca3bdfc8b26a9a26eb42619e4d2e7abf84dd3a3e73a8c6a21957e4e32d",
+    "impact_cut_1.wav": "ffc4931e44e75309e77429bd4fbd0de9cd17c842dbfbb16a5fa3dd590a726955",
+    "impact_heat_0.wav": "ba0508c54bced38a77b2d29a3cc2dea0afbcc9e93a9766d53f8d35e2fa99f323",
+    "impact_heavy_0.wav": "32a76058585c4e437d437f2b52f6dbdeaa4ecc85d736c7a70fb63e06aafd58c4",
+    "impact_heavy_1.wav": "ed4249767284af2037903df92a8979d36901973208e1e256cafc3c7dd6c4e611",
+    "kill_0.wav": "4ddf225030fc84d73f11c671d0777590289cf95d6386456010f7aee2d990d871",
+    "missile_0.wav": "62200285fb136fb7cc0d0a17cb096d665a7e12d77b8063af31531c4f15210d28",
+    "missile_1.wav": "52062dccadb4a11dfc6747e608500e8d188c8d5733c38926835dffc9845ffaca",
+    "missile_2.wav": "ede2d85d65f2844e7f51b350ae578033ce17fe54ee68cadeaf362084f14fe07d",
+    "overdrive_0.wav": "f8745940b5026bab405b09ff81d4035969d1c0849deada1125531e6a3496127b",
+    "pickup_alloy_0.wav": "f3bca025291c85012df755d455164aafd347eea9faa344b788b7d5787b4b32a3",
+    "pickup_alloy_1.wav": "82225c22b413d0f1b8407bc4059f8a71e990bde3088f63e57c1c5542ed4928eb",
+    "pickup_core_0.wav": "d4cbe95699cfe7cfd14ec27d28b2895aae84b85599e2784b34e77370b8b2f2bb",
+    "pickup_core_1.wav": "e9d5b262732cf2e5925d6a00144a284953b77476bab673961a9097d2d2b31639",
+    "power_absorbed_0.wav": "0c0565c76c03d8e4873c21beee6a0eb6c887aad423cd9d00c5f1e384f762cb80",
+    "power_acquired_0.wav": "af4656ad7581d80eb7da84c5b329a70dde0c05255cfa648042e805a06f4bf633",
+    "power_charge_0.wav": "63dc0a4181539eff2a5d095890418b18fee614f1c8e232dd7b02f099782ead77",
+    "rail_0.wav": "b9ce94d7135dbd9a09fb98c71f817ecaa02db6bd74ce27315642ccff52fd1817",
+    "rail_1.wav": "29fe3f51d435991a84221b52fae531dd8847f4e007a460f9e4f6e6379e905fc1",
+    "rail_2.wav": "554c591e130e401199121da4d778f47b2a527ee2a115c165785352cb914236f1",
+    "rail_ally_0.wav": "80f7de2682524eaf622f07ef9e0c4ce999065c1375c30a88594814c98bcd56cd",
+    "rail_ally_1.wav": "b872ddf36418ea68050cb6b66f7704a5734ad5e06d9b21b5809730c6e218663a",
+    "rail_ally_2.wav": "bf02f750e516178d0617190377d813309b8e2318b9fde017b3b6a44b212f70f2",
+    "rail_fire_0.wav": "80f7de2682524eaf622f07ef9e0c4ce999065c1375c30a88594814c98bcd56cd",
+    "rail_fire_1.wav": "b872ddf36418ea68050cb6b66f7704a5734ad5e06d9b21b5809730c6e218663a",
+    "rail_fire_2.wav": "bf02f750e516178d0617190377d813309b8e2318b9fde017b3b6a44b212f70f2",
+    "rail_pierce_0.wav": "54e5026163613178b2838ff5adc619ed27574e30161d2f330953ed3248f57c55",
+    "rail_pierce_1.wav": "ab587086a86563f7a90fd0dc5d1fadf4c86f37274bee89377e962846ecc76551",
+    "rail_pierce_2.wav": "9d7e74a9a6dd9b9d7a226ca61705cd82b128e57d5afb203e175583ca21e4f161",
+    "rail_ready_0.wav": "e0b74d8f7c5d1bc6f08f25a6d0631aa78e110e5b298dcb2dd05f35cf677f34a2",
+    "shot_0.wav": "8d1aafda14334551e33d39670cc98649c711d389b2dcf72d78f8742d112a126f",
+    "shot_1.wav": "beb8ed25d1adc382a662e26e47b68d6c254d79c0c1477a7048e0f96c9833ebb8",
+    "shot_2.wav": "1d0715c732f72e98783aa02c85d777305f0b31234867665c8cfe83492f2ff548",
+    "turret_rail_0.wav": "b9ce94d7135dbd9a09fb98c71f817ecaa02db6bd74ce27315642ccff52fd1817",
+    "turret_rail_1.wav": "29fe3f51d435991a84221b52fae531dd8847f4e007a460f9e4f6e6379e905fc1",
+    "turret_rail_2.wav": "554c591e130e401199121da4d778f47b2a527ee2a115c165785352cb914236f1",
+    "ui_click_0.wav": "6101d0950249bfd9cc3a75e3d168b88a246de53298cb99169f08d975e3901d75",
+    "ui_click_1.wav": "cfb37733131aee7c3dd48d9e91104c6bacdfd110b73279257f5781dd49e795e9",
+    "ui_click_2.wav": "f1aae6a00686edda26472be6ffef152286b450333c5e62be77c99d2c866580d7",
+    "ui_hover_0.wav": "8c0a06112ce81b706d50b48ca3d1358ea8c9ad01e843210c701e74912a67cafd",
+    "ui_hover_1.wav": "b2a4047dc04ac5cdc983ee20f83af147f03ae77b12bf109473e8a950b7d042d6",
+    "ui_hover_2.wav": "a347a6d94dcf946a89cbbdb5171abe60effb6477ea563841a7fb5f8511b90585",
+    "upgrade_0.wav": "5bed11ecf934c1960d1809e8471481c09b40711d6bf558750291a0797d3d0897",
+    "upgrade_1.wav": "82e5f442eb2e512803217ae5240d7693eb77e8bf02321384a47f538a9f9035f5",
+    "upgrade_2.wav": "52b80abc7fdeaa13ff6d8451f9280ba7306e813d5c8c8e2e1786f3565e5816cc",
+    "upgrade_3.wav": "d24816ab1053f92399f030bf76988409dc1768aa1298be398f98ec768265dae2",
+    "warning_0.wav": "722cc653a102daa61f350bd9bc9fdf6cb5e10d495d091a3d7f202ca539ce733a",
+    "warp_in_0.wav": "6cb79d6d6637ca82249c4772334327e7dd3d2100e22512cf59868bdeccc66995",
+    "warp_in_1.wav": "7aaa81580446ffd5fe83825c2f1276b116547addc12636ab7e453fb35a20a933",
+    "warp_out_0.wav": "40d504bad3a427cf17d208e732d10ccc88e176753c2c13ef149df125a17f137c",
+    "warp_out_1.wav": "3b862927524aaa43f368a2ac221d4a31b68346d2bb696a2d0fa44ed20285576a"
+  },
+  "attribution": "THIRD_PARTY_NOTICES.md"
+}

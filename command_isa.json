@@ -1,0 +1,64 @@
+{
+  "schema": "tilestorm2d.command-isa",
+  "version": "1.0",
+  "status": "c0-c1-compatibility-baseline; see QUESTIONS.md",
+  "endianness": "little",
+  "command_bytes": 32,
+  "command_words": 8,
+  "bytes_per_pixel": 2,
+  "opcodes": [
+    {"name": "NOP", "value": 0, "class": "control"},
+    {"name": "FILL_RECT", "value": 1, "class": "draw"},
+    {"name": "BLIT_OPAQUE", "value": 2, "class": "draw"},
+    {"name": "BLIT_COLORKEY", "value": 3, "class": "draw"},
+    {"name": "BLIT_ALPHA_CONST", "value": 4, "class": "draw"},
+    {"name": "BLIT_ALPHA_PIXEL", "value": 5, "class": "optional"},
+    {"name": "CLEAR_FRAME", "value": 126, "class": "draw"},
+    {"name": "FRAME_END", "value": 127, "class": "control"}
+  ],
+  "flags": [
+    {"name": "CLIP_TO_VIEWPORT", "bit": 0, "required_for_draw": true},
+    {"name": "FLIP_X", "bit": 1, "optional": true},
+    {"name": "FLIP_Y", "bit": 2, "optional": true},
+    {"name": "SRC_ARGB4444", "bit": 3, "optional": true},
+    {"name": "PRESERVE_DST", "bit": 4, "optional": true}
+  ],
+  "pixel_formats": [
+    {"name": "RGB565", "value": 0, "bits_per_pixel": 16},
+    {"name": "ARGB4444", "value": 1, "bits_per_pixel": 16, "optional": true}
+  ],
+  "validation_errors": [
+    {"name": "UNKNOWN_OPCODE", "bit": 0},
+    {"name": "ZERO_SIZE", "bit": 1},
+    {"name": "SRC_STRIDE", "bit": 2},
+    {"name": "DST_STRIDE", "bit": 3},
+    {"name": "SRC_ALIGN", "bit": 4},
+    {"name": "DST_ALIGN", "bit": 5},
+    {"name": "COORD_OVERFLOW", "bit": 6},
+    {"name": "DST_RANGE", "bit": 7},
+    {"name": "RESERVED_FLAGS", "bit": 8},
+    {"name": "SRC_FORMAT", "bit": 9},
+    {"name": "CMD_COUNT", "bit": 10},
+    {"name": "FRAME_END_MISSING", "bit": 11},
+    {"name": "BANK_CONFLICT", "bit": 12},
+    {"name": "ADDR_OVERFLOW", "bit": 13},
+    {"name": "CLIP_REQUIRED", "bit": 14}
+  ],
+  "fields": [
+    {"name": "opcode", "word": 0, "lsb": 0, "width": 8, "type": "u8"},
+    {"name": "flags", "word": 0, "lsb": 8, "width": 8, "type": "u8"},
+    {"name": "src_format", "word": 0, "lsb": 16, "width": 8, "type": "u8"},
+    {"name": "global_alpha", "word": 0, "lsb": 24, "width": 8, "type": "u8"},
+    {"name": "src_base_addr", "word": 1, "lsb": 0, "width": 32, "type": "u32"},
+    {"name": "dst_base_addr", "word": 2, "lsb": 0, "width": 32, "type": "u32"},
+    {"name": "src_x", "word": 3, "lsb": 0, "width": 16, "type": "s16"},
+    {"name": "src_y", "word": 3, "lsb": 16, "width": 16, "type": "s16"},
+    {"name": "dst_x", "word": 4, "lsb": 0, "width": 16, "type": "s16"},
+    {"name": "dst_y", "word": 4, "lsb": 16, "width": 16, "type": "s16"},
+    {"name": "width", "word": 5, "lsb": 0, "width": 16, "type": "u16"},
+    {"name": "height", "word": 5, "lsb": 16, "width": 16, "type": "u16"},
+    {"name": "src_stride_bytes", "word": 6, "lsb": 0, "width": 16, "type": "u16"},
+    {"name": "dst_stride_bytes", "word": 6, "lsb": 16, "width": 16, "type": "u16"},
+    {"name": "parameter", "word": 7, "lsb": 0, "width": 32, "type": "u32"}
+  ]
+}

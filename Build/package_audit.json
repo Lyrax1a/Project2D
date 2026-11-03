@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "compile_units": 43,
+  "firmware_bytes": 720368,
+  "audio_files": 64,
+  "music_tracks": 27,
+  "standalone_paths": true,
+  "removed_demo_symbols_absent": true,
+  "board_tested": false
+}

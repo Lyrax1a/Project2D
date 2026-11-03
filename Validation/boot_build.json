@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "boot_sha256": "9ccc403194bcf4e73542acd74baa5e97d6613c23dc06b8bc1ace48ffec99f43d",
+  "bridge_sha256": "dbd19ed40972523bb28e297492f3b11f76bc457026e152cdc0bec0f0fb4e1c3b",
+  "matches_packaged_images": true,
+  "board_tested": false
+}
